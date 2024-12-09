@@ -1,59 +1,26 @@
-img{
-    width: 100%;
-    height: 100%;
-}
-
 
 .grid-container{
-    height:400px;
     gap: 5px;
-   margin-bottom: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+    grid-auto-flow: dense;
+    height:600px;
+    border: 2px solid green;
 }
+
 .row-1{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
-    object-fit: cover;
-}
-.row-1>div{
-      flex:1;
-
-}
-.row-1 img{
-    height: 100%;
-    width: 100%;
-}
-.row-2{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 5px;
-    object-fit: cover;
+    border: 3px solid red;
 }
 
-.row-2>div{
-      flex:1;
-
+.row-1 >div{
+    width: 50%;
+    
 }
-.row-1 img{
-    height: 100%;
-    width: 100%;
+.row-1 .Rectangle-5{
+    width: 50%;
 }
-.row-3{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 5px;
-    object-fit: cover;
+.row-1 .Rectangle-8{
+    width: 50%;
 }
-.row-3>div{
-      flex:1;
-
-}
-.row-1 img{
-    height: 100%;
-    width: 100%;
-}
-
-
- .grid-container{
-    height: 500px;
-} 

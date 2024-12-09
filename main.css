@@ -10,8 +10,8 @@
     border: 2px solid whitesmoke;
     border-radius:5px;
     box-shadow:3px 3px 20px ;
-    margin: 25px 6px;
-    padding: 10px 5px;
+    margin: 20px 6px;
+    padding: 15px 5px;
     background-color: white;     
 }
 .popular-title{
@@ -27,8 +27,8 @@
 .text-2 {
     border-radius:5px;
     box-shadow:3px 3px 20px ;
-    margin: 25px 6px;
-    padding: 30px 5px;
+    margin: 20px 6px;
+    padding: 20px 5px;
     background-color: white;
 }
 .text-2 li{
@@ -38,8 +38,8 @@
 .text-3{
     border-radius:5px;
     box-shadow:3px 3px 20px ;
-    margin: 25px 6px;
-    padding: 5px 5px;
+    margin: 20px 6px;
+    padding: 20px 7px;
     background-color: white;
 }
 .text-3-description{
@@ -49,11 +49,10 @@
     background-color: white;
 }
 .btn{
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 160px;
    font-size: 20px;
    color: white;
-   padding: 10px 10px;
    border-radius: 8px;
    border: none;
    margin-left: 10px;
