@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <!-- Google Icon link -->
+<!-- <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script> -->
 <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
@@ -33,12 +34,15 @@
             margin-bottom:25px;
             padding:5px;
             border-radius: 10px;
-            box-shadow: 2px 2px 3px whitesmoke;
-            border: 3px solid blue; 
+            box-shadow: 2px 2px 3px gray;
         }
 
         .btn{
             background-color:var( --primary-color);
+        }
+        .simple-vdo iframe{
+            border-radius: 10px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -52,7 +56,7 @@
                 </div>
     
                 <div class="container-title">
-                    <h1 class="title">Mokarama <span>Travel</span></h1>
+                    <h1 class="title">Mokarama <span>Shanta</span></h1>
                 </div>
     
             </div>
@@ -64,6 +68,11 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+
+
+            <div class="hamburger">
+               <img src="./Images/menu.svg" alt="">
+            </div>     
         </nav>
 
         <section>
@@ -144,8 +153,6 @@
            </section>
 
 
-
-          
             <!-- Choose Your Destination section -->
             <section>
                 <div class="choose-container-area">
@@ -156,42 +163,27 @@
 
                     <div class="choose-box1">
                         <div class="maldives">
-                            <h1 class="image-5"></h1>
-                            <h1 class="image-8"></h1>
+                            <h1 class="image-5">Maldives</h1>
+                            <h1 class="image-8">Indonesia</h1>
                         </div>
                  
-
-
-
-                    
                         <div class="srilanka">
 
-                            <h1 class="images-6"></h1>
-                            <h1 class="images-7"></h1>
-                            <h1 class="images-9"></h1>
+                            <h1 class="images-6">Srilanka</h1>
+                            <h1 class="images-7">North America</h1>
+                            <h1 class="images-9">Kashmir</h1>
 
                         </div>
                  
-
-
-              
                         <div class="bangladesh">
-                            <h1 class="images-10"></h1>
-                            <h1 class="images-11"></h1>
+                            <h1 class="images-10">Bangladesh</h1>
+                            <h1 class="images-11">Bandarban</h1>
 
                         </div>
                    
                     </div>
                
             </section>    
-
-
-
-
-
-
-
-
 
             <!-- Why Chose us -->
         <!-- Why Chose us -->
@@ -227,7 +219,6 @@
 
           <!-- Deals & Discounts section -->
            <!-- Deals-Area-1 -->
-            <!-- deals.css -->
             <section>
                 <div class="deals-container-area">
                     <div class="deals-container">
@@ -357,13 +348,6 @@
                 </div>
             </section>
   
-
-                       
-
-
-
-
-
           <!-- A simple perFect place To Get Lost -->
         
         <section>
@@ -387,10 +371,11 @@
                 <!--simple-vdeo -->
 
                 <div class="simple-vdo">
-                    <img src="./Images/Rectangle 11.png" alt="">
+                    <iframe width="500" height="504" src="https://www.youtube.com/embed/JnX7Oc8LqD8" title="সূরা আর রহমান (الرحمن)  - মন জুড়ানো তেলাওয়াত | Zain Abu Kautsar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
        </section>
+
 
        <!-- Newseltter Area -->
         <section>
@@ -402,9 +387,7 @@
 
             <hr style="width:450px; margin-right:10px ;">
 
-       
-
-
+    
             <form action="#" method="post" class="contact-form">
               <div class="form-row">
                   <input type="text" name="name" placeholder="Enter your name" required>
@@ -419,27 +402,19 @@
           </div>
 
 
-
-
-
           <!-- Rotated Image Area -->
-          <div>
+       <div class=" rotated-img-area">
+        <div class="rotated-img">
             <div class="form-img"><img src="./Images/Rectangle 8 (1).png" alt=""></div>
           </div>
 
-          <div>
-            <p></p>
-            <h2></h2>
+          <div class="new-card">
+            <p class="new-descript">Travel.com</p>
+            <h2 class="new-title-card">Save up to 70%</h2>
           </div>
 
+       </div>
         </div>
-
-
-
-
-
-
-
 
         </section>
         </main>
@@ -460,16 +435,13 @@
 
                     <a href="#" onclick="window.open('//github.com/Mokarama')"><i class="fa-brands fa-github"></i></i></a>
                   
-                
-                   
                 </div>
          
             <hr/>
             <p class="copy-right">2017, All Rights Reserved.</p>
               </div>
-                   
-                 </div>
-                </footer>
+
+                </footer>     
 
         </body>
         </html>
