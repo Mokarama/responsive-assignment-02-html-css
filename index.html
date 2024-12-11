@@ -14,13 +14,7 @@
 <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="./section.css">
-    <link rel="stylesheet" href="./chose.css">
-
-    <link rel="stylesheet" href="deals.css">
-    <link rel="stylesheet" href="simple.css">
-    <link rel="stylesheet" href="./footer.css">
+ 
 
     <style>
         :root{
@@ -32,25 +26,24 @@
             color:var(--text-color)
         }
         section{
-            height: 600px;
+            height:550px;
             width: 80%;
             margin: 0 auto;
             border: 2px solid whitesmoke;
-            margin-bottom:60px;
-            padding: 10px;
+            margin-bottom:25px;
+            padding:5px;
             border-radius: 10px;
-            box-shadow: 5px 5px 15px gray;
-            border: 3px solid blue;
-
+            box-shadow: 2px 2px 3px whitesmoke;
+            border: 3px solid blue; 
         }
+
         .btn{
             background-color:var( --primary-color);
         }
     </style>
 </head>
 <body>
-
-    <header>
+ <header>
         
         <nav>
              <div class="container">
@@ -76,23 +69,44 @@
         <section>
             <div class="banner-container">
               <div class="banner-img">
-                <img src="./Images/Group 13 (1) (1).png" alt="">
+
             </div>
 
                 <div class="banner-info">
                     <h1 class="banner-title">Explore Your Travel</h1>
                     <p class="banner-discription">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-                </div>
+                </div> 
 
-                <div class="box-area">
-                 <div>
-                   <input type="text">
-                   <select name="" id=""></select>
-                   <button></button>
-                 </div>
+                <div class="input-area">
+
+                 <div class="div-box">
+                      <label for="">
+                        <input class="input" type="text" placeholder="When go">
+
+                        <select name="" id="card">
+                            <option value="volvo">When</option>
+                            <option value="saab">Where</option>
+                            <option value="mercedes">Whom</option>
+                            <option value="audi">Which</option>
+                          </select>
+
+                          <select name="" id="card">
+                            <option value="">Select Type</option>
+                            <option value="">Maldives</option>
+                            <option value="">Srilanka</option>
+                            <option value="">Kashmir</option>
+                          </select>
+
+                      <div>
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <button class="btn-box"></i>Find Now</button>
+                      </div>
+
+                   </label>
                     
-  
-                </div>
+                  </div>
+                    
+                 </div>
             </div>
         </section>
          </header>
@@ -130,13 +144,60 @@
                     </div>
                 </div>
            </section>
-           <!-- Choose Your Destination section -->
-             <section>
-                <!-- Css ---- Section.css  ---- -->
-             
 
 
-            </section>
+
+          
+            <!-- Choose Your Destination section -->
+            <section>
+                <div class="choose-container-area">
+                    <div class="choose-text">
+                        <h1>Choose Your Destination</h1>
+                        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                    </div>
+
+                    <div class="choose-box1">
+                        <div class="maldives">
+                            <h1 class="image-5"></h1>
+                        </div>
+
+                        <div class="indonesia">
+                            <h1 class="image-8"></h1>
+                        </div>
+                    </div>
+
+
+
+                    <div class="choose-box2">
+                        <div class="srilanka">
+                            <h1 class="images-6"></h1>
+                        </div>
+
+                        <div class="north-america">
+                            <h1 class="images-7"></h1>
+                        </div>
+
+                        <div class="kashmir">
+                            <h1 class="images-9"></h1>
+                        </div>
+                    </div>
+
+
+                    <div class="choose-box3">
+                        <div class="bangladesh">
+                            <h1 class="images-11"></h1>
+                        </div>
+
+                        <div class="bandarban">
+                            <h1 class="images-10"></h1>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>    
+
+
 
 
 
@@ -145,19 +206,35 @@
 
 
             <!-- Why Chose us -->
-             <!-- chose.css -->
-          <section>
-            <div class="deals-container">
-                <h1 class="deals-title">Why Choose Us</h1>
-                <p class="delas-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        <!-- Why Chose us -->
+
+        <section class="why-choose-us">
+          <h1>Why Choose Us</h1>
+          <p class="description">
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+              Sodales dictumst nec nibh pellentesque.
+          </p>
+          <div class="features">
+              <div class="feature-card card-1">
+                  <img src="./Images/hotel.jpg" alt="Handpicked Hotels">
+                  <h3>Handpicked Hotels</h3>
+                  <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                      sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+              </div>
+              <div class="feature-card card-2">
+                  <img src="./Images/map.jpg" alt="World Class Service">
+                  <h3>World Class Service</h3>
+                  <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                      sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+              </div>
+              <div class="feature-card card-3">
+                <img src="./Images/price tag.jpg" alt="Best Price Guarantee">
+                <h3>Best Price Guarantee</h3>
+                <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                    sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
             </div>
-          </section>
-
-
-
-
-
-
+        </div>
+    </section>
 
 
           <!-- Deals & Discounts section -->
@@ -208,7 +285,7 @@
             </section>
 
             <!-- Deals-Area-2 -->
-            <section>
+              <section>
                 <div class="deals-container-area">
                   
                     <div class="card-container">
@@ -246,7 +323,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+              </section>
 
                              
 
@@ -300,7 +377,7 @@
 
 
           <!-- A simple perFect place To Get Lost -->
-           <!-- simple.css -->
+        
         <section>
             <div class="simple-container-area">
                 <div class="simple-container">
@@ -329,6 +406,52 @@
 
        <!-- Newseltter Area -->
         <section>
+        <div class="newseltter-area">
+                <!-- Form Area -->
+          <div class="new-area">
+            <h1 class="new-title">Newsletter</h1>
+            <p class="new-description">Get your daily dose of travel news & tips. Sign <br> up today!</p>
+
+            <hr style="width:450px; margin-right:10px ;">
+
+       
+
+
+            <form action="#" method="post" class="contact-form">
+              <div class="form-row">
+                  <input type="text" name="name" placeholder="Enter your name" required>
+              </div>
+
+              <div class="form-row">
+                  <input type="email" name="email" placeholder="Email" required>
+              </div>
+
+              <button class="form-btn">Subscribe</button>
+
+          </div>
+
+
+
+
+
+          <!-- Rotated Image Area -->
+          <div>
+            <div class="form-img"><img src="./Images/Rectangle 8 (1).png" alt=""></div>
+          </div>
+
+          <div>
+            <p></p>
+            <h2></h2>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
 
         </section>
         </main>
