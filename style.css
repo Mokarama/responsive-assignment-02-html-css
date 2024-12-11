@@ -208,10 +208,13 @@ input{
    text-align: center;
   
 }
+.choose-information{
+    font-size: 30px;
+}
 .choose-description{
     width:600px;
     margin: 0 auto;
-    padding-bottom: 3px;
+    padding-bottom:3px;
 }
 .maldives{
     display:flex ;
@@ -577,8 +580,8 @@ input{
   position: absolute;
  
    right:2%;
-  bottom: 15%; 
-  rotate: -40deg;
+  bottom: 10%; 
+  rotate: -22deg;
 }
 
 .new-descript{
@@ -721,11 +724,11 @@ hr {
      .image-5, .images-6, .images-7, .image-8, .images-9, .images-10, .images-11{
          width:98% ;
          border-radius: 5px;
-     }
-     .images-9{
-         font-size: 20px;
+         align-content:center;
          text-align: center;
+         color: white;
      }
+    
    }
  
 
