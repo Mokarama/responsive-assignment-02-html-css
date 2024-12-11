@@ -9,7 +9,7 @@ body{
 
 header{
     background-color:white ;
-    /* height:700px; */
+   
 }
 .container{
     display: flex;
@@ -97,19 +97,10 @@ ul li a{
     position: absolute;
     top: 60%;
     left: 20%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background:linear-gradient(rgba(213,211,211,0.6), rgba(215,212,212,0.6));
-    position: relative;
 }
 
-/* .fa-solid{
-    position: absolute;
-    top: 20%;
-    right: 20%;
-    color: black;
-    display: hidden;
-  
-} */
 input{
     height: 45px;
     width: 160px;
@@ -135,7 +126,6 @@ input{
    height: 45px;
    width: 160px;
    right: 2%;
-   bottom: 26%;
    color: white;
    background-color: #FF5400;
    border: none;
@@ -147,7 +137,7 @@ input{
 
  .popular-container-area{
     display: flex;
-    height: 100%;
+    height:100%;
 }
 .popular-container-area >div:nth-child(1){
     width:60%;
@@ -163,8 +153,7 @@ input{
 .popular-title{
     font-size: 30px;
     font-weight:700;
-    padding-bottom:5px;
-   
+    padding-bottom:5px; 
 }
 .popular-description{
     width: 550px;
@@ -186,8 +175,8 @@ input{
     border-radius:5px;
     background-color: white;
     padding-bottom: 5px;
-
 }
+
 .text-3-description{
     border-radius:5px;
     background-color: white;
@@ -211,75 +200,85 @@ input{
 /* Choose Your Destination section */
 
 .choose-container-area{
-  
+
 }
 .choose-text{
-    text-align: center;
+   text-align: center;
+  
+}
+.choose-description{
+    width: 600px;
+    margin: 0 auto;
 }
 .choose-box1{
-    
+
 }
 .maldives{
-    background-image: url(./Images/Rectangle\ 5.png);
-    height:300px;
-    width: 50%;
-    object-fit:cover;
-    background-repeat:no-repeat;
+    display:flex ;
+    gap: 20px;
 }
 .image-5{
-
-}
-.indonesia{
-
+   background-image: url(./Images/maldives.png);
+   height: 300px;
+   width: 580px;
+   object-fit: cover;
+   background-repeat: no-repeat;
 }
 .image-8{
-
-}
-
-/* box-2 */
-.choose-box2{
-
+    background-image: url(./Images/indonesia.png);
+    height:300px;
+    width: 580px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 .srilanka{
-
+    display:flex ;
+    gap: 10px;
+    margin-top: 20px;
 }
 .images-6{
-
-}
-.north-america{
-
+    background-image: url(./Images/srilanka.png);
+    height:300px;
+    width:700px;
+    object-fit: cover;
+    background-repeat: no-repeat
 }
 .images-7{
-
-}
-.kashmir{
-
+    background-image: url(./Images/north-america.png);
+    height:300px;
+     width:900px;
+    /* width: calc(900px-10px); */
+    object-fit: cover;
+    background-repeat: no-repeat
 }
 .images-9{
-
+    background-image: url(./Images/kashmir.png);
+    height:300px;
+    width: calc(500px - 10px);
+    object-fit: cover;
+    background-repeat: no-repeat
+    
 }
-/* Box-3 */
 
-.choose-box3{
-
-}
 .bangladesh{
-
-}
-.images-11{
-
-}
-.bandarban{
-
+    display:flex;
+    gap: 10px;
+    
 }
 .images-10{
-
+    background-image: url(./Images/bangladesh.png);
+    height:300px;
+    width: 590px;
+    object-fit: cover;
+    background-repeat: no-repeat
 }
-
-
-
-
-
+.images-11{
+    background-image: url(./Images/bandarban.png);
+    height:300px;
+    width: 800px;
+    object-fit: cover;
+    background-repeat: no-repeat
+}
 
 
 
